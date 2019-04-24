@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43bf50b2-a12d-4ab8-8f29-3db1a92d5768" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php_frame_zip/yii-advanced-app-2.0.17.tgz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php_frame.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Common/Common/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Common/Conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Common/Conf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Common/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/Common/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/Conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/Conf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/Controller/IndexController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/Controller/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/Model/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/View/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Home/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Cache/Home/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Cache/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Data/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Logs/Home/19_04_24.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Logs/Home/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Logs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/Temp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tp323full/Application/Runtime/index.html" />
-    </list>
+    <list default="true" id="43bf50b2-a12d-4ab8-8f29-3db1a92d5768" name="默认" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,18 +11,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yii2base/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -99,20 +61,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php_frame" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_frame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_frame" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2base" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,18 +158,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556077564882</updated>
-      <workItem from="1556077568633" duration="1441000" />
+      <workItem from="1556077568633" duration="1859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1441000" />
+    <option name="totallyTimeSpent" value="1859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
