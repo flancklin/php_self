@@ -23,4 +23,17 @@ echo "<hr><br />";
         var_dump($b);
 
     }
+
+    /**
+     * 方法自动绑定参数
+     * @param $year
+     * @param $mouth
+     * @param $day
+     * 访问形式  域名/Home/Index/bindParam/2019/4/26
+     * $year = 2019  $mouth = 4 $day=26
+     */
+    public function bindParam($year, $mouth, $day){
+
+        echo $year ."-" . $mouth . '-' . $day;
+    }
 }
