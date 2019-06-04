@@ -21,6 +21,6 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Application/');
 
 // 引入ThinkPHP入口文件
-require '../../php_frame_code/code/source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
+require __DIR__ . '/../../php_frame_code/code_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单

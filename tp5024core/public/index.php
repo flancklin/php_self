@@ -14,4 +14,4 @@
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
 // 加载框架引导文件
-require __DIR__ . '/../../../php_fram_code/code_source/thinkphp_5.0.24_core/thinkphp/start.php';
+require __DIR__ . '/../../../php_frame_code/code_source/thinkphp_5.0.24_core/thinkphp/start.php';
