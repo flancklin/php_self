@@ -14,14 +14,10 @@ class IndexController extends Controller{
         $this->show('hello world');
         $a = $this->fetch();
         var_dump($a);
-		$dirName =APP_PATH . 'Home/View/Cache/index.html';
-		if(is_file( $dirName)){
-			var_dump(3);
-			chmod($dirName, 0777);
-		}else{
-			var_dump(4);
+		$dirName =APP_PATH . 'Home/View/Cache/index.html';r_dump(4);
 		}
         $b = $this->buildHtml("index.html", APP_PATH . 'Home/View/Cache/');
+		chmod($dir_name,0777);
         var_dump($b);
         echo "<hr><br />";
         $this->display('Home@Index/index');
