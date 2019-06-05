@@ -15,7 +15,7 @@ class IndexController extends Controller{
         $a = $this->fetch();
         var_dump($a);
 		$dirName =APP_PATH . 'Home/View/Cache/index.html';
-		if(is_dir( $dirName)){
+		if(is_file( $dirName)){
 			var_dump(3);
 			chmod($dirName, 777);
 		}else{
