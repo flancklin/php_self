@@ -14,7 +14,7 @@ class IndexController extends Controller{
         $this->show('hello world');
         $a = $this->fetch();
         var_dump($a);
-		$dirName =APP_PATH . 'Home/View/Cache/index.html';r_dump(4);
+		$dirName =APP_PATH . 'Home/View/Cache/index.html';
 		
         $b = $this->buildHtml("index.html", APP_PATH . 'Home/View/Cache/');
 		chmod($dir_name,0777);
