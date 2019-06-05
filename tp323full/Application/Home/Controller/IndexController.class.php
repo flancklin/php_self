@@ -16,7 +16,10 @@ class IndexController extends Controller{
         var_dump($a);
 		$dirName =APP_PATH . 'Home/View/Cache/index.html';
 		if(is_dir( $dirName)){
+			var_dump(3);
 			chmod($dirName, 777);
+		}else{
+			var_dump(4);
 		}
         $b = $this->buildHtml("index.html", APP_PATH . 'Home/View/Cache/');
         var_dump($b);
