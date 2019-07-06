@@ -1,0 +1,86 @@
+<include file="common/content_head"/>
+<div class="content_left">
+    <a name="iframe">
+        <div class="content">
+            <h4 data-mao="iframe">如何使用iframe框架</h4>
+            <div>
+                <xmp>
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <title>Title</title>
+                    </head>
+                    <body>
+                    <div>
+                        <ul>
+                            <li><a href="http://www.w3school.com.cn/tags/tag_iframe.asp" target="iframe_a">w3c school</a>
+                            </li>
+                            <li><a href="https://www.baidu.com/index.php?tn=monline_3_dg" target="iframe_a">百度</a></li>
+                            <li><a href="https://www.cnblogs.com/" target="iframe_a">博客园</a></li>
+                            <li><a href="http://www.ximalaya.com/explore/" target="iframe_a">喜马拉雅</a></li>
+                            <li>
+                                <a href="https://jx.tmall.com/?ali_trackid=2:mm_28347190_2425761_27186547:1503727807_3k9_233309614"
+                                   target="iframe_a">天猫</a></li>
+                            <li><a href="http://www.ctrip.com/?allianceid=1381&sid=1068414" target="iframe_a">携程</a></li>
+                        </ul>
+                    </div>
+                    <iframe src="bbb.html" name="iframe_a" frameborder="1" width="600" height="400">
+                        <div>你盛开的积分快结束了宽度盛开的积分舒服的水电费圣诞节覅</div>
+                    </iframe>
+                    </body>
+                    </html>
+                </xmp>
+            </div>
+        </div>
+        <div class="notes">
+            注意：a标签中有target属性，属性值需要与iframe的name相同
+        </div>
+    </a>
+    <a name="show_code">
+        <div class="content">
+            <h4 data-mao="show_code">显示源码pre/xmp</h4>
+            <div>
+                <pre>
+                    pre：展示非html源码。有html代码，仍会被翻译
+                    xmp:展示任何源码。即使html的源码也不翻译，直接展示
+                </pre>
+            </div>
+        </div>
+        <div class="notes"></div>
+    </a>
+    <a name="kuohao_xiegang">
+        <div class="content">
+            <h4 data-mao="kuohao_xiegang">js中的{ //在php中不能解析问题</h4>
+            <div>
+                <xmp>
+                    在html中写
+                    { //通过页面的物理路径访问没有错
+                    }
+                    但是在thinkphp3.2中通过控制器调用。{ //没法解析出来，导致页面展示会报错
+                    建议写法改为
+                    {
+                    //注释
+                    代码
+                    }
+                </xmp>
+            </div>
+        </div>
+        <div class="notes">1、当前仅在tp3.2中遇到。其他php有待考证,初步怀疑是tp模板替换的bug。<br />
+            2、此处的{ //中间的空格是人为加到。不然解析不出来，看不到</div>
+    </a>
+
+    <a name="mao">
+        <div class="content">
+            <h4 data-mao="mao">1</h4>
+            <div>
+                fdsfdsf
+            </div>
+        </div>
+        <div class="notes">ddddddddddd</div>
+    </a>
+</div>
+<div class="content_right">
+</div>
+<include file="common/content_footer"/>
+
