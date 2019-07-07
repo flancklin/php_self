@@ -18,8 +18,8 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 
 // 定义应用目录
-define('APP_PATH','./App/');//控制器
-define('TMPL_PATH', "./View/");//试图
+define('APP_PATH','./MVC_C/');//控制器
+define('TMPL_PATH', "./MVC_V/");//试图
 define("COMMON_PATH", "../Common/");//公共方法
 define('RUNTIME_PATH', './Runtime/');   // 系统运行时目录
 define('CONF_PATH','./Config/'); // 应用配置目录
