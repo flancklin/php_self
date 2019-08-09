@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>aaa</title>
+    <style>
+        a{
+            display: block;
+        }
+        .a{
+            font-size: 20px;
+        }
+        .b{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="vue_app">
+    <div>1、{{a}}</div>
+    <div class="a" v-bind:class="{'b':bindClass}">2、bind class</div>
+    <div v-bind:id="bindId">3、bing id</div>
+    <a href="" v-bind:href="bindHref">4、bind href</a>
+    <br />
+    <div>v-bind其实可以等同于attr,对标签的属性进行操作</div>
+    <hr><br>
+
+    <div><input type="text" v-model="input" value="">{{input}}</div>
+    <div v-on:click="doclick">click触发修改input值</div>
+    <br />
+    <div>form表单的绑定和v-on事件的绑定</div>
+    <hr><br>
+
+    <div>{{fa}}-{{fa|flt1}}</div>
+    <div>{{fb}}-{{fb|flt1}}</div>
+    <div>{{fc}}-{{fc|flt1}}</div>
+    <!--<div v-bind:class="{'b': fca|flt2}">a</div>-->
+    <!--<div v-bind:class="{'b': fcb|flt2}">b</div>-->
+    <div></div>
+    <br />
+    <div>对值变相switch处理方式</div>
+    <hr><br>
+
+
+    <xmp>
+        缩写
+        v-bind 缩写
+        v-bind:href="" => :href=""
+
+        v-on 缩写
+        v-on:click="" => @click = ""
+    </xmp>
+
+</div>
+
+</body>
+<script src="./vue2.6/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#vue_app',
+        data:{
+            a:'渲染数据',
+            bindClass:true,
+            bindId:'myDiv',
+            bindHref:'http://www.baidu.com',
+            input:'d',
+            fa:'a',
+            fb:'b',
+            fc:'c',
+            fca:'ac',
+            fcb:'bc',
+        },
+        methods:{
+            doclick:function () {
+                this.input="click";
+            }
+        },
+        filters:{
+            flt1:function (v) {
+                switch (v){
+                    case 'a':
+                        return 'af';
+                    case 'b':
+                        return 'bf';
+                    case 'c':
+                        return 'cf';
+                    default:
+                        return 'wrong';
+                }
+            },
+            flt2:function (v) {
+                if(v == 'ac'){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }
+        }
+    })
+</script>
+</html>

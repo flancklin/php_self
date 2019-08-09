@@ -38,7 +38,7 @@ class EmptyController extends Controller {
 
     private function test(){
 
-        return true;
+//        return true;
     }
 
 

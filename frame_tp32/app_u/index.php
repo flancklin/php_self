@@ -18,14 +18,10 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 
 // 定义应用目录
-define('APP_PATH','./MVC_C/');//控制器
-define('TMPL_PATH', "./MVC_V/");//试图
-define("COMMON_PATH", "../Common/");//公共方法
+define('APP_PATH','./MVC_C/');//定义应用目录
+define('TMPL_PATH', "./MVC_V/");//视图目录
+define("COMMON_PATH", "./../Common/app_u/");//公共配置和公共方法目录
 define('RUNTIME_PATH', './Runtime/');   // 系统运行时目录
-define('CONF_PATH','./Config/'); // 应用配置目录
-define('LANG_PATH','./Lang/'); // 应用配置目录
-define('VENDOR_PATH','./Vendor/'); // 第三方类库目录
-
 // 引入ThinkPHP入口文件
 require __DIR__ . '/../../../php_frame_code/code_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
 

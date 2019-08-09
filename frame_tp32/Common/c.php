@@ -1,4 +1,5 @@
 <?php
 return [
-    "c1"=>'我是公共config'
+    "URL_MODEL" => 3,
+    "c1"=>'我是前后端公共config'
 ];

@@ -1,5 +1,7 @@
 <?php
-
+function fun1(){
+    echo "我是前后端的function<br>";
+}
 function fun_c(){
     var_dump("我是公共function");
 }
