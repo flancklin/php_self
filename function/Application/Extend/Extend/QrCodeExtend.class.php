@@ -18,19 +18,16 @@ class QrCodeExtend
     public static function createPng($url = '')
     {
         empty($url) && $url = "www.baidu.com?param=flancklin";
+        $savePath = INDEX_PATH. '/Public/Extend/qrcode/';                                  //apache中设置www.flancklin.com的物理路径
+        $visitPath = '/function/Public/Extend/qrcode/';//访问的路径
+        $filename = md5($url). '.png';
 
         $errorCorrectionLevel = intval(3); //容错级别
         $matrixPointSize = intval(10);     //生成图片大小
-        $savePath = $_SERVER['DOCUMENT_ROOT'] . '/public/img/qrcode/';                                  //apache中设置www.flancklin.com的物理路径
-        $visitPath = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/public/img/qrcode/';//访问的路径
-
-        $filename = time() . '.png';
         //生成二维码图片
         Vendor('phpqrcode.phpqrcode');
         \QRcode::png($url, $savePath . $filename, $errorCorrectionLevel, $matrixPointSize, 2, true);
-
         return $visitPath . $filename;
-        //echo '<img src="'.$visitPath.$filename .'">';
     }
 
     //2.仅仅展示二维码

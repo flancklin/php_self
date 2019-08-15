@@ -42,7 +42,7 @@ class VerifyCodeExtend
      * @param  array $config 配置参数
      */
     public function __construct($config=array()){
-        $this->fontDoc  = LIB_PATH . '/Think/verify/';//dirname(__FILE__) .'/verify/';
+        $this->fontDoc  = LIB_PATH . '/Think/Verify/';//dirname(__FILE__) .'/verify/';
         $this->useImgDoc  = LIB_PATH . '/Think//Verify/bgs//';//dirname(__FILE__) .'//Verify/bgs//';
         $this->config   =   array_merge($this->config, $config);
     }

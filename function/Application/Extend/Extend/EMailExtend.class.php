@@ -28,12 +28,9 @@ class EMailExtend
         $mail->Body      = $message;                    //邮件内容
         $mail->WordWrap  = 50;                          //设置每行字符长度
         $mail->CharSet   = "UTF-8";                     //设置邮件编码
-//        $mail->SMTPDebug =1;                            //调试模式
+//        $mail->SMTPDebug =2;                            //调试模式
         $mail->AltBody   = "邮件正文不支持HTML";         //邮件正文不支持HTML的备用显示
-        $mail->addAttachment(APP_PATH.'../Public/_img/mail/1.jpg'.'');
-        $mail->addAttachment(APP_PATH.'../Public/_img/mail/2.png'.'');
-        $mail->addAttachment(APP_PATH.'../Public/_img/mail/3.jpg'.'');
-        $mail->addAttachment(APP_PATH.'../Public/_img/mail/4.png'.'');
+        $mail->addAttachment(APP_PATH.'../Public/Extend/mail/1.jpg');
         $result = $mail -> send();
         if($result){
             return $result;
