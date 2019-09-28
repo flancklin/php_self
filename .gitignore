@@ -1,13 +1,11 @@
-# 防止svn
+
 */.idea/*
   
-# 框架缓存  
 */Runtime
 */Runtime/*
 
 */runtime
 */runtime/*
 
-# 代码生成的静态html
 */s_html
 */s_html/*
