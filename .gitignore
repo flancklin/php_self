@@ -1,7 +1,4 @@
 
-# 防止svn
-.idea
 */.idea/*
-
-# 缓存文件
+  
 */Runtime/*
