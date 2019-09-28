@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+cd /www/html
+git pull origin master
 cd /www/php_self
 git pull origin master
 cd /www/php_down
