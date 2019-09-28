@@ -21,6 +21,7 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Application/');
 define('VENDOR_PATH','./Vendor/');
 define("INDEX_PATH",__DIR__);
+die(INDEX_PATH);
 
 // 引入ThinkPHP入口文件
 require './../../php_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
