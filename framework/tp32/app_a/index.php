@@ -14,6 +14,6 @@ define('RUNTIME_PATH', './Runtime/');   // 系统运行时目录
 //define('LANG_PATH','./Lang/'); // 应用配置目录.最好还是前后端分离。因为前后端的文字不一样
 
 // 引入ThinkPHP入口文件
-require __DIR__ . '/../../../php_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
+require __DIR__ . '/../../../../php_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
