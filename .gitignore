@@ -1,6 +1,7 @@
+
+# 防止svn
 .idea
-*/.idea/
-*.xml
-*.iml
-*/Runtime/
-*/runtime/
+*/.idea/*
+
+# 缓存文件
+*/Runtime/*
