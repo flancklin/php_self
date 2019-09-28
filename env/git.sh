@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/bin/bash
 cd /www/php_self
 git checkout .
 git pull origin master
