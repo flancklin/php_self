@@ -23,6 +23,6 @@ define('TMPL_PATH', "./MVC_V/");//视图目录
 define("COMMON_PATH", "./../Common/app_u/");//公共配置和公共方法目录
 define('RUNTIME_PATH', './Runtime/');   // 系统运行时目录
 // 引入ThinkPHP入口文件
-require __DIR__ . '/../../../php_frame_code/code_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
+require __DIR__ . '/../../../php_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
