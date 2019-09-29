@@ -10,18 +10,15 @@ class IndexController extends Controller
     public function g()
     {
         $A = new RedisInstance();
-        var_dump("t");
+        $A::set("a1", "1-".rand(0,9999999));
         var_dump($A::subscribe(array('qa', 'chan-2', 'chan-3'), function ($redis, $chan, $msg) {
-            switch ($chan) {
-                case 'chan-1':
-                    break;
-                case 'chan-2':
-                    break;
-                case 'chan-2':
-                    break;
-            }
-            var_dump(json_encode($redis, $chan, $msg));
+            $a = new \Redis();
+            $a->connect('47.97.183.226');
+            $a->auth("Redis1234");
+            $a->set("a2",json_encode($redis, $chan, $msg).'-'.rand(0,88888888));
         }));
+        ;
+        $A::set("a3", "3-".rand(0,9999999));
     }
 
     public function p()
