@@ -12,12 +12,12 @@ class IndexController extends Controller
         $A = new RedisInstance();
 //        var_dump($A::set("a","2017"));
         var_dump($A::get("a"));
-        var_dump($A::subscribe(I("get.ch/s"),function ($a,$b,$c){
+        var_dump($A::subscribe(["qa"],function ($a,$b,$c){
             var_dump(json_encode([$a, $b, $c]));
         }));
     }
     public function p(){
         $A = new RedisInstance();
-        var_dump($A::publish(I("get.ch/s"), I("get.sv/s")));
+        var_dump($A::publish("qa", I("get.sv/s")));
     }
 }
