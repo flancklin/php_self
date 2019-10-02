@@ -24,6 +24,7 @@ define('APP_PATH','./Application/');
 define("INDEX_PATH",__DIR__);
 
 // 引入ThinkPHP入口文件
-require './../../../php_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
+//require './../../../php_source/thinkphp_3.2.3_full/ThinkPHP/ThinkPHP.php';
+require './ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
