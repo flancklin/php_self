@@ -61,7 +61,18 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+//        yii\helpers\Url::to()
+        return $this->render('blog-index');
+    }
+    public function actionBlogAdd()
+    {
+//        yii\helpers\Url::to()
+        return $this->render('blog-add');
+    }
+    public function actionBlogDetail()
+    {
+//        yii\helpers\Url::to()
+        return $this->render('blog-detail');
     }
 
     /**

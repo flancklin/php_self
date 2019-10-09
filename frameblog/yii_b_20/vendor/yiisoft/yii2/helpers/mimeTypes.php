@@ -652,7 +652,7 @@ return [
     'rdf' => 'application/rdf+xml',
     'rdz' => 'application/vnd.data-vision.rdz',
     'rep' => 'application/vnd.businessobjects',
-    'res' => 'application/x-dtbresource+xml',
+    'blog' => 'application/x-dtbresource+xml',
     'rgb' => 'image/x-rgb',
     'rif' => 'application/reginfo+xml',
     'rip' => 'audio/vnd.rip',
