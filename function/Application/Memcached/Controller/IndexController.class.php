@@ -11,6 +11,7 @@ class IndexController extends Controller
     public function index()
     {
         $A = new MemcachedInstance();
-        var_dump($A::add("aa","v1"));
+        var_dump($A::add("aa2","v2"));
+        var_dump($A::add("aa3","v3"));
     }
 }
