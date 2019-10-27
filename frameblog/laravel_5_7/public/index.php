@@ -1,5 +1,8 @@
 <?php
 
+if($_GET['param'] = "index"){
+    exit("index");
+}
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
