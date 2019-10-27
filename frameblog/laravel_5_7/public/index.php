@@ -1,6 +1,6 @@
 <?php
 
-if($_GET['param'] = "index"){
+if($_GET['pm'] = "index"){
     exit("index");
 }
 /**
